@@ -98,7 +98,7 @@ const HomeProcedures = () => {
                         <h3>Hecho a la medida</h3>
                         <p>+8 Asesores</p>
                         <div className='homeProcedure_button'>
-                            <Link to='/procedure/6'>más detalles</Link>
+                            <Link to='/tailormade'>más detalles</Link>
                         </div>
                     </div>
                 </div>

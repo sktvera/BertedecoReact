@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
         <div className={dropdMenu ? 'active_dropdMenu' : 'links'}>
           <ul>
-            <li><NavLink to="/flights" className='navlinks' onClick={() => setDropdMenu(false)} >Inicio</NavLink></li>
+            <li><NavLink to="/BertedecoReact" className='navlinks' onClick={() => setDropdMenu(false)} >Inicio</NavLink></li>
             <li>
               <div className={proceduresDropdown ? 'proceduresDropdown_open' : 'proceduresDropdown'} onClick={() => setProceduresDropdown(!proceduresDropdown)}>
                 <p>
@@ -72,7 +72,7 @@ const Navbar = () => {
               <ProceduresDropdown dropdMenu={dropdMenu} lickCategoryClicked={() => setProceduresDropdown(false)} ClickedCategory={() => setProceduresDropdown(false)} />
             }
             <li><NavLink to="/frecuentQuestions" className='navlinks' onClick={() => setDropdMenu(false)} >Preguntas Frecuentes</NavLink></li>
-            <li><NavLink to="/tailorMade" className='navlinks' onClick={() => setDropdMenu(false)} >Hecho A La Medida</NavLink></li>
+            <li><NavLink to="/tailormade" className='navlinks' onClick={() => setDropdMenu(false)} >Hecho A La Medida</NavLink></li>
             <li><NavLink to="/withdrawalsShipments" className='navlinks' onClick={() => setDropdMenu(false)} >Retiros y Envios</NavLink></li>
             <li><NavLink to="/aboutus" className='navlinks' onClick={() => setDropdMenu(false)} >Nosotros</NavLink></li>
           </ul>

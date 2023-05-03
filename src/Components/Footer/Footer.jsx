@@ -3,8 +3,6 @@ import React from 'react'
 import './Assets/styles.css'
 import Mastercard from './Assets/Img/Mastercard.png'
 import Visa from './Assets/Img/Visa.png'
-import Appstore from './Assets/Img/Appstore.png'
-import Googleplay from './Assets/Img/Googleplay.png'
 import Paypal from './Assets/Img/Paypal.png'
 import { Link } from 'react-router-dom'
 
@@ -20,13 +18,7 @@ const Footer = () => {
                 </div>
                 <div className='paymentMethod_paypal'><img src={Paypal} alt="Paypal" /></div>
             </div>
-            <div className='apps'>
-                <h4>Descarga Nuestra App</h4>
-                <div className='apps_cards'>
-                    <div className='apps_appstore'><img src={Appstore} alt="App Store" /></div>
-                    <div className='apps_googleplay'><img src={Googleplay} alt="Google Play" /></div>
-                </div>
-            </div>
+          
             <div className='aboutUs'>
                 <h4>Sobre Nosotros</h4>
                 <div className='aboutUs_p'>

@@ -2,7 +2,8 @@ import React from 'react'
 import { Routes, Route } from "react-router-dom";
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Routes/Home/Home';
-
+import TailorMade from './Routes/TailorMade/TailorMade';
+import Form from './Routes/Form/Form';
 import Footer from './Components/Footer/Footer';
 
 import "./app.css"
@@ -20,6 +21,8 @@ const App = () => {
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/BertedecoReact' element={<Home/>}/>
+          <Route path='/tailormade' element={<TailorMade />} />
+          <Route path='/form' element={<Form />} />
         {/*  
           <Route path='/Employees' element={<Employees/>}/>
           <Route path="/EmployeesSettings/:id/edit" element={<EmployeesSettings />} />
