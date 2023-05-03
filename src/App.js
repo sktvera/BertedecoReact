@@ -19,7 +19,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route exact path='/' element={<Home/>}/>
-          <Route exact path='/home/' element={<Home/>}/>
+          <Route exact path='/BertedecoReact' element={<Home/>}/>
         {/*  
           <Route path='/Employees' element={<Employees/>}/>
           <Route path="/EmployeesSettings/:id/edit" element={<EmployeesSettings />} />
